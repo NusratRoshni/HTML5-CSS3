@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nav.css">
+    <title>Form</title>
+    <style>
+        body
+        {
+            background-color:violet;
+        }
+        form p{
+            color:black;
+        font-weight: 600;
+      
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="Internal Navigation Among Files.html">Home</a> </li>
+                <li> <a href="table.html" target="_blank">Table</a> </li>
+                <li> <a href="form.html" target="_blank">Form</a> </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <h1>Software Engineer Information</h1>
+    <form action="">
+        <p>
+            Name:<input type="text" name="" placeholder="Enter Your Name" id="Name">
+        </p>
+        <p>
+            Email:<input type="email" name="" placeholder="Enter Your Email" id="Email">
+        </p>
+        <p>
+            Phone:<input type="number" name="" placeholder="Enter Your Phone Number" id="Number">
+        </p>
+        <p>
+            CGPA:<input type="number" name="" placeholder="Enter Your CGPA" id="CGPA">
+        </p>
+        <fieldset>
+            <legend>
+                <h3>Select one</h3>
+            </legend>
+            <p>
+                <label for="Machine Learning"> <input type="radio" name="field" id="Machine Learning">Machine Learning
+            </p></label>
+
+
+            <p>
+                <label for="C/C++ Problem solving"><input type="radio" name="field" id="C/C++ Problem solving">C/C++
+                    Problem solving
+            </p></label>
+
+
+
+            <p>
+                <label for="Web Development"><input type="radio" name=" field" id="Web Development">Web Development
+            </p></label>
+
+
+            <p>
+                <label for="Android Development"><input type="radio" name="field " id="Android Development">Android
+                    Development
+            </p></label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>
+                <h3>Select your skill</h3>
+            </legend>
+            <p><label for="c/c++"><input type="checkbox" name="skill" id="c/c++">c/c++</label></p>
+
+            <p><label for="php"><input type="checkbox" name="skill" id="php">php</label></p>
+
+            <p><label for="python"><input type="checkbox" name="skill" id="python">python</label></p>
+
+            <p><label for="javascript"><input type="checkbox" name="skill" id="javascript">javascript</label></p>
+
+            <p><label for="css/html"><input type="checkbox" name="skill" id="css/html">css/html</label></p>
+
+            <p><label for="react"><input type="checkbox" nameskill id="react">react</label></p>
+        </fieldset>
+
+        <br>
+        <p>
+        <h3>Say something about yourself:</h3>
+        <textarea name="about yourself" id="" cols="120" rows="10"></textarea>
+        </p>
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+
+</html>
